@@ -13,7 +13,9 @@ export default function Card({
   ...restProps
 }) {
   return (
-    <article className={`rounded-lg shadow-xl font-primary p-8 ${className}`}>
+    <article
+      className={`rounded-lg shadow-xl drop-shadow-2xl font-primary p-8 ${className}`}
+    >
       {/* header try grid*/}
       {/* <section className={`w-full ${className}`}>
         <div className="grid grid-cols-2 gap-4">
